@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+.enquiry-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+input[type="text"] {
+  margin: 20px;
+  resize: vertical;
+  align-content: column;
+}
+
+#fName {
+  margin: 20px;
+}
+
+#lName {
+  margin: 20px;
+}
+
+#sport {
+}
+
+#enquiry {
+}
+
+#submit-btn {
+}

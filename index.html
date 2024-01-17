@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="forms.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <!-- <form>
+      <label for="name">Name</label>
+      <input name="name" />
+      <label for="email">Email</label>
+      <input type="email" name="email" required />
+      <label for="password">Password</label>
+      <input type="password" name="password" required />
+      <button type="submit">Submit</button>
+    </form> -->
+    <form action="#" class="enquiry-form">
+      <label for="firstname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="First Name" />
+      <label for="lastname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Last Name" />
+      <label for="sport">Sport</label>
+      <select id="sport" name="sport">
+        <option value="Kite">Kite</option>
+        <option value="Ski">Ski</option>
+      </select>
+      <label for="enquiry">Enquiry</label>
+      <textarea
+        id="enquiry"
+        name="enquiry"
+        placeholder="Additional information and contact details"
+        style="height: 200px"
+      ></textarea>
+      <input type="submit" value="Submit" id="submit-btn" />
+    </form>
+  </body>
+</html>
